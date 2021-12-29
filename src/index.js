@@ -12,7 +12,7 @@ ReactDOM.render(
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" basename={process.env.PUBLIC_URL} element={<TodoContainer />} />
+        <Route path="/react-to-do-app" element={<TodoContainer />} />
         <Route path="/about/*" element={<About />} />
         <Route path="*" element={<NotMatch />} />
       </Routes>
