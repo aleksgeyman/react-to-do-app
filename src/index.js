@@ -13,8 +13,8 @@ ReactDOM.render(
       <Navbar />
       <Routes>
         <Route path="/react-to-do-app" element={<TodoContainer />} />
-        <Route path="/about/*" element={<About />} />
-        <Route path="*" element={<NotMatch />} />
+        <Route path="/react-to-do-app/about/*" element={<About />} />
+        <Route path="/react-to-do-app/*" element={<NotMatch />} />
       </Routes>
     </Router>
   </React.StrictMode>,

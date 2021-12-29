@@ -6,12 +6,12 @@ import { FiMenu } from "react-icons/fi";
 const links = [
   {
     id: 1,
-    path: "/",
+    path: "/react-to-do-app/",
     text: "Home",
   },
   {
     id: 2,
-    path: "/about",
+    path: "/react-to-do-app/about",
     text: "About",
   },
 ];
